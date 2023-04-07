@@ -3,6 +3,10 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+main{
+    
+    margin-top: 30vh;
+}
 main div:nth-child(2){
     display: flex;
     justify-content: right;
@@ -42,6 +46,9 @@ main div:nth-child(2){
     body{
         background-image: url(../home/background-home-tablet.jpg);
     }
+    main{
+        margin-top: 106px;
+    }
     main div:nth-child(2){
         justify-content: center;
     }
@@ -56,6 +63,9 @@ main div:nth-child(2){
     }
     .h-btn{
         padding: 4.53em 1.87em 4em 1.87em;
+    }
+    main{
+        margin-top: 48px;
     }
     main p{
         
