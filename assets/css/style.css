@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
+:root{
+    --color1: #0B0D17;
+    --color2: #D0D6F9;
+    --color3: #FFFFFF;
+}
+body{
+    font: 18px 'Barlow', sans-serif;
+    height: 100vh;
+}
+h1{
+    font: 150px 'Bellefair', serif;
+}
+h2{
+    font: 100px 'Bellefair', serif;
+}
+
+h3{
+    font: 56px 'Bellefair', serif;
+}
+h4{
+    font: 32px 'Bellefair', serif;
+}
+h5{
+    font: 28px 'Barlow Condensed', sans-serif;
+    letter-spacing: 4.75px;
+}
+.sh1{
+    font: 28px 'Bellfair', serif;
+}
+.sh2{
+    font: 14px 'Barlow Condensed', sans-serif;
+    letter-spacing: 2.35px;
+}
+nav{
+    font: 16px 'Barlow Condensed', sans-serif;
+    letter-spacing: 2.7px;
+}
+/* Create media styling for laptop screen */
+@media screen and (max-width: 1024px){
+    body{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 100px;
+    }
+    h2{
+        font-size: 80px;
+    }
+    h3{
+        font-size: 40px;
+    }
+    h4{
+        font-size: 24px;
+    }
+    h5{
+        font-size: 16px;
+    }
+    .sh1{
+        font-size: 28px;
+    }
+    .sh2{
+        font-size: 12px;
+    }
+    nav{
+        font-size: 16px;
+    }
+}
