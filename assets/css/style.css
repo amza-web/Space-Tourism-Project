@@ -201,8 +201,11 @@ main{
     main p{
         line-height: 25px;
     }
+    nav{
+        overflow: hidden;
+    }
     nav ul{
-        position: absolute;
+        position: fixed;
         z-index: 10001;
         top: 0;
         right: -100%;
