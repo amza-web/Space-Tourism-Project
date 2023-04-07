@@ -139,6 +139,7 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-left: 165px;
+    margin-right: 165px;
     margin-top: 30vh;
 }
     
@@ -148,6 +149,37 @@ main{
     justify-content: right;
 }
 
+
+/* Tablet view */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    body{
+        font-size: 16px;
+    }
+    h5{
+        font-size: 20px;
+    }
+    main{
+        text-align: center;
+        grid-template-columns: 1fr;
+        margin-top: 10vh;
+    }
+    nav{
+        margin-top: 0px;
+    }
+    nav ul {
+        padding: 39px 46px 39px 48px;
+    }
+    nav ul li{
+        margin-right: 37px;
+    }
+    nav ul li b{
+        display: none;
+    }
+    
+}
+
+
+/* Mobile view */
 @media screen and (max-width: 767px){
     body{
         font-size: 15px;
@@ -242,6 +274,9 @@ main{
     }
     nav ul div {
         margin-bottom: 6.65em;
+    }
+    nav .harmburger{
+        display: block;
     }
     nav ul.show{
         right: 0;

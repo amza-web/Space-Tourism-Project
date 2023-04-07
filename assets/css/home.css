@@ -5,7 +5,7 @@ body{
 }
 main div:nth-child(2){
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     margin-top: 5.4em;
 }
@@ -32,7 +32,7 @@ main div:nth-child(2){
     height: 100%;
     border-radius: 100%;
     background-color: var(--color4);
-    transition: all 1s;
+    transition: all 0.7s;
 }
 .h-btn:hover::before{
     width: 150%;
@@ -41,6 +41,12 @@ main div:nth-child(2){
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     body{
         background-image: url(../home/background-home-tablet.jpg);
+    }
+    main div:nth-child(2){
+        justify-content: center;
+    }
+    main p{        
+        line-height: 28px;
     }
 }
 @media screen and (max-width: 767px) {
@@ -55,7 +61,8 @@ main div:nth-child(2){
         
         margin-bottom: 0px;
     }
-    nav .harmburger{
-        display: block;
+    
+    main div:nth-child(2){
+        justify-content: center;
     }
 }
