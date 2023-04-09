@@ -8,6 +8,8 @@
 
   <link rel="icon" type="image/svg" sizes="32x32" href="./assets/shared/logo.svg">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/destination.css">
+
   
   <title>Frontend Mentor | Space tourism website</title>
 </head>
@@ -22,31 +24,48 @@
     </div>
     <ul>
       <div class="flex-r"><button class="close-btn"><img src="assets/shared/icon-close.svg" alt="icon-close"></button></div>
-      <li><a class="active" href=""><b>00</b> Home</a></li>
-      <li><a href="destination-moon.html"><b>01</b> Destination</a></li>
+      <li><a href="index.html"><b>00</b> Home</a></li>
+      <li><a class="active" href="destination-moon.html"><b>01</b> Destination</a></li>
       <li><a href="crew-commander.html"><b>02</b> Crew</a></li>
       <li><a href="technology-vehicle.html"><b>03</b> Technology</a></li>
     </ul>
   </nav>
 
-  01 Pick your destination
-
-  Moon
-  Mars
-  Europa
-  Titan
-
-  Titan
-
-  The only moon known to have a dense atmosphere other than Earth, Titan 
-  is a home away from home (just a few hundred degrees colder!). As a 
-  bonus, you get striking views of the Rings of Saturn.
-
-  Avg. distance
-  1.6 bil. km
-
-  Est. travel time
-  7 years
+  <div class="main">
+    <h5><b>01</b> Pick your destination</h5>
+    <main>
+      <div>
+        <img class="img-pl" src="assets/destination/image-titan.png" alt="image-titan.png">
+      </div>
+      <div>
+        <div class="nav">
+          <ul>
+            <li><a href="destination-moon.html">Moon</a></li>
+            <li><a href="destination-mars.html">Mars</a></li>
+            <li><a href="destination-europa.html">Europa</a></li>
+            <li><a class="active" href="destination-titan.html">Titan</a></li>
+          </ul>
+        </div>
+        <h2>Titan</h2>
+        <p>
+          The only moon known to have a dense atmosphere other than Earth, Titan 
+          is a home away from home (just a few hundred degrees colder!). As a 
+          bonus, you get striking views of the Rings of Saturn.
+        </p>
+        <hr>
+        <div class="sh flex">
+          <div>
+            <h3 class="sh2">Avg. distance</h3>
+            <h4 class="sh1">1.6 bil. km</h4>
+          </div>
+          <div>
+            <h3 class="sh2">Est. travel time</h3>
+            <h4 class="sh1">7 years</h4>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
   <script src="assets/js/main.js"></script>
 </body>
 </html>
